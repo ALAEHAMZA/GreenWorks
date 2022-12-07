@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #031f1c;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;   
+    height: 60vh;
+    background-color:#d8e0cb ;
+}
+.greenWork{
+    display: flex;
+    justify-content: space-between;   
+    height: 100vh;
+    background-color:#d8e0cb ;
+}
+.nav{
+    position:fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #d8e0cb;
+    z-index: 100;
+
+}
+.titre{
+    margin-top: 50px;
+    margin-left: 50px;
+    border-left: 10px solid #38524f;
+    padding-left: 10px;
+}
+.marge{
+    margin-left: 15px;
+}
+.titre a{
+    display: flex;
+    flex-direction: column;
+    color :#38524f;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    border-bottom: 2px solid #38524f;
+
+}
+.menu a{
+    text-decoration: none;
+    color:#38524f ;
+    font-size:large ;
+    margin-right: 15px;
+} 
+.menu a:hover{
+    text-decoration: underline;
+    font-size:150% ;
+}
+.mot{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #38524f;
+    margin-top: 13%;
+    margin-left: 40%;
+}
+#acceuil{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../IMG/img1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+.barreNav{
+    background-color: #d8e0cb;
+    width: 100%;
+    height: 135px;
+    z-index: -1;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 11%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 15px;
+    color: #d8e0cb;
+    font-size:large;
+    background-color: rgba(22, 32, 31, 0.7);
+    width: 25%;
+    height: 400px;
+    transition: all 100ms linear;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 400px;
+    height: 200px;
+}
+
+
+#mesGreenWorks{
+    height: 100vh;
+    background-image:linear-gradient(rgba(22, 32, 31, 0.8),rgba(22, 32, 31, 0.8)),url(../IMG/img1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    z-index: -2;
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mesGreenWorks div p{
+    color: #d8e0cb;
+    font-size: 30px;
+}
+.login{
+    width: 30%;
+    height: 60%;
+    border: 10px solid #d8e0cb;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #d8e0cb;
+}
+.intro{
+    width: 30%;
+    height: 60%;
+    border: 10px solid #d8e0cb;
+    border-radius: 30px;
+    padding: 15px;
+}
+.intro h1{
+    text-align: center;
+}
+.connexion{
+    display: flex;
+    flex-direction: column;
+    color: #031f1c;
+    
+}
+.connexion h1{
+    color: #38524f;
+    text-align: center;
+}
+.mdpO{
+    margin: 15px;
+}
+.nom , .mdp{
+    border: none;
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border-bottom: 3px solid #38524f;
+    border-radius: 16px 16px 0 0;
+    color:#38524f;
+    margin: 15px;
+    padding: 10px;
+    background-color: transparent;
+}
+.connexion input::placeholder{
+    color: #38524f;
+}
+.connexionBtn{
+    background-color: #38524f;
+    color: #d8e0cb;
+    width: 85%;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 80px;
+}
+.connexion a{
+    text-decoration: none;
+    color: #38524f;
+}
+.connexion span{
+    text-align: center;
+}
+
+
+
+
+
+
+#aboutUs{
+    height:100vh ;
+    background-color: #031f1c;
+    padding-top: 135px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+#aboutUs img{
+    z-index: 10;
+    width: 650px;
+    border-radius: 30px;
+}
+#aboutUs div{
+    color: #d8e0cb;
+    width: 50%;
+    height:900px;
+}
+#aboutUs div h1{
+    font-size:80px ; 
+
+}
+.img{
+    border-radius: 50px;
+    width: 40%;
+    height: 70%;
+    margin: 35px;
+
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: #38524f;
+}
+
+.btn1{
+    margin-top: 60em;
+    width: 180px;
+    height: 80px;
+    background-color: #d8e0cb;
+    color: #38524f;
+    font-size: 1.2em;
+    font-weight: 600;
+    border:3px solid #d8e0cb;
+    border-radius: 15px;
+    transition: 0.7s ease;
+    padding: 15px;
+    width: 180px;
+
+}
+
+
+.btn1:hover{
+    transform: scale(1.1);
+    background-color: #031f1c;
+    border:3px solid #d8e0cb;
+    color: #d8e0cb;
+}
+
+.btn1 a:hover{
+    color: #d8e0cb;
+}
+
+
+
+
+
+
+
+#contact{
+    background-image:linear-gradient(rgba(22, 32, 31, 0.7),rgba(22, 32, 31, 0.7)),url(../IMG/img1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    padding-top: 135px;
+}
+h1{
+color: #d8e0cb;
+font-size: 50px;
+margin-top: 50px;
+}
+.form {
+position: absolute;
+left: 35%;
+flex-direction: column;
+} 
+.form input, textarea{
+    border: none;
+    width: 60%;
+    height: 70px;
+    outline: none;
+    border-bottom: 3px solid #d8e0cb;
+    background-color: rgba(22, 32, 31, 0.7);
+    border-radius: 16px 16px 0 0;
+    color:#d8e0cb;
+    margin: 20px;
+    padding: 10px;
+}
+.form input::placeholder, textarea::placeholder{
+color: #d8e0cb;
+}
+button{
+    padding: 10px 30px;
+    font-size: 30px;
+    background: transparent;
+    color:#d8e0cb;
+    border: 3px white solid;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 3%;
+}
+button:hover{
+    background: #d8e0cb;
+    color: #38524f;
+
+}

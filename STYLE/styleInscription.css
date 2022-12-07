@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(../IMG/img1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.login{
+    width: 30%;
+    height: 75%;
+    border: 10px solid #d8e0cb;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #d8e0cb;
+    margin-left: 34%;
+}
+.connexion{
+    display: flex;
+    flex-direction: column;
+    color: #031f1c;
+    
+}
+.connexion h1{
+    color: #38524f;
+    text-align: center;
+}
+.mdpO{
+    margin: 15px;
+}
+input{
+    border: none;
+    width: 80%;
+    height: 25px;
+    outline: none;
+    border-bottom: 3px solid #38524f;
+    border-radius: 16px 16px 0 0;
+    color:#38524f;
+    margin: 15px;
+    padding: 10px;
+    background-color: transparent;
+}
+.connexion input::placeholder{
+    color: #38524f;
+}
+.connexionBtn{
+    background-color: #38524f;
+    color: #d8e0cb;
+    width: 85%;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 80px;
+}
+.form input::placeholder, textarea::placeholder{
+    color: #d8e0cb;
+}
+.connexion a{
+    text-decoration: none;
+    color: #38524f;
+}
+.connexion span{
+    text-align: center;
+}
